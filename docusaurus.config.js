@@ -10,7 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: '김승우',
   tagline: '김승우 블로그',
-  favicon: 'img/favicon.ico',
+  // 상단에 인터넷 브라우져 탭에 아이콘
+  favicon: 'https://i.pinimg.com/236x/c9/42/8e/c9428e08b0d9fbdb439fa4f8164e6f5b.jpg',
 
   // Set the production url of your site here
   url: 'http://stevenkim18.github.io',
@@ -69,7 +70,8 @@ const config = {
         title: '김승우 블로그',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          // 네비 바 상단 로고
+          src: 'https://i.pinimg.com/474x/ed/fa/84/edfa84c9bf25327aa4df2d9561b32639.jpg',
         },
         items: [
           {
