@@ -71,7 +71,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           // 네비 바 상단 로고
-          src: 'https://i.pinimg.com/474x/ed/fa/84/edfa84c9bf25327aa4df2d9561b32639.jpg',
+          src: 'https://w7.pngwing.com/pngs/887/762/png-transparent-gummy-bear-gummi-candy-haribo-sugar-sugar-food-supermarket-breakfast-cereal-thumbnail.png',
         },
         items: [
           {
