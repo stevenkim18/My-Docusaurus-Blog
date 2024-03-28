@@ -1,0 +1,32 @@
+name: Deploy to Github Pages
+
+on:
+  push: # 푸시 했을 때, PR 일때도 가능
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy to Github Pages
+    runs-on: ubuntu-lastet
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build website
+        run: yarn build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
