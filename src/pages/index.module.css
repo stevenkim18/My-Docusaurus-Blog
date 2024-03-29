@@ -21,3 +21,12 @@
   align-items: center;
   justify-content: center;
 }
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonSpacing {
+  margin-right: 20px; /* 원하는 간격으로 조정 가능 */
+}

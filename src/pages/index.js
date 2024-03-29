@@ -1,8 +1,10 @@
+import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import MainPage from './_mainpage.mdx'
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -15,12 +17,18 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
+        <div className={styles.buttonsContainer}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            TIL
+          </Link>
+          <div className={styles.buttonSpacing}></div> 
+          <Link
+            className="button button--secondary button--lg"
+            to="/blog">
+            Blog
           </Link>
         </div>
       </div>
@@ -35,9 +43,12 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      {/* <main> */}
+        {/* <div style={{ margin: '0 auto' }}> */}
+          {/* <MainPage /> */}
+        {/* </div> */}
+        {/* <HomepageFeatures /> */}
+      {/* </main> */}
     </Layout>
   );
 }

@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '김승우',
-  tagline: '김승우 블로그',
+  title: '두려움이 없는 개발자 "김승우" 입니다.',
+  tagline: '김승우 입니다.',
   // 상단에 인터넷 브라우져 탭에 아이콘
   favicon: 'https://i.pinimg.com/236x/c9/42/8e/c9428e08b0d9fbdb439fa4f8164e6f5b.jpg',
 
@@ -31,8 +31,13 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['ko', 'en'],
+    localeConfigs: {
+      ko: {
+        htmlLang: 'ko-KR',
+      },
+    },
   },
 
   presets: [
