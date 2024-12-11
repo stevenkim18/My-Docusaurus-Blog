@@ -4,10 +4,24 @@
         <title>두려움이 없는 개발자 "김승우" 입니다. Blog</title>
         <link>http://stevenkim18.github.io/My-Docusaurus-Blog/blog</link>
         <description>두려움이 없는 개발자 "김승우" 입니다. Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
+        <item>
+            <title><![CDATA[우리지금만나]]></title>
+            <link>http://stevenkim18.github.io/My-Docusaurus-Blog/blog/2024/12/10/index</link>
+            <guid>http://stevenkim18.github.io/My-Docusaurus-Blog/blog/2024/12/10/index</guid>
+            <pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[아 당장만나]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="아-당장만나">아 당장만나<a href="http://stevenkim18.github.io/My-Docusaurus-Blog/blog/2024/12/10/index#%EC%95%84-%EB%8B%B9%EC%9E%A5%EB%A7%8C%EB%82%98" class="hash-link" aria-label="아 당장만나에 대한 직접 링크" title="아 당장만나에 대한 직접 링크">​</a></h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[test]]></title>
+            <link>http://stevenkim18.github.io/My-Docusaurus-Blog/blog/test</link>
+            <guid>http://stevenkim18.github.io/My-Docusaurus-Blog/blog/test</guid>
+            <pubDate>Thu, 28 Mar 2024 09:54:44 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>http://stevenkim18.github.io/My-Docusaurus-Blog/blog/welcome</link>
